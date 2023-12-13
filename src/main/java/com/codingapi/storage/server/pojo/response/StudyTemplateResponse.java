@@ -3,6 +3,8 @@ package com.codingapi.storage.server.pojo.response;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.codingapi.storage.server.pojo.StudyTemplate;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -29,6 +31,17 @@ public class StudyTemplateResponse {
         
     }
 
+
+    
+    @Setter
+    @Getter
+    public static class DataResponse extends Response {
+
+        private StudyTemplate data;
+        
+    }
+
+    
 
     @Setter
     @Getter
